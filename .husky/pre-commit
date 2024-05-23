@@ -2,6 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Add the following
+pnpm next lint
 pnpm lint-staged
 pnpm run build
 
